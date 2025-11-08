@@ -942,4 +942,4 @@ async def index_get():
 # ---------------- Main ----------------
 if __name__ == "__main__":
     # Use reload=True for debug-like behavior
-    uvicorn.run("bot:app", host="0.0.0.0", port=int(os.environ.get("PORT", 21298)), reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=int(os.environ.get("PORT", 5000)), reload=True)
