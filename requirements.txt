@@ -1,0 +1,28 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Templates & form handling
+jinja2
+python-multipart
+aiofiles
+brotli
+zstandard
+brotlicffi
+aiodns
+
+# HTTP clients
+requests
+aiohttp
+httpx
+
+# Async and concurrency
+asyncio
+thread6
+
+# Data validation & models
+pydantic
+
+# Utilities
+colorama
+pytz
